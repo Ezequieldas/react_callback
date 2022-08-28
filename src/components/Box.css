@@ -1,0 +1,25 @@
+.box {
+  width: 250px;
+  height: 210px;
+  background-color: moccasin;
+  border-radius: 8px;
+  margin: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
